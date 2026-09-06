@@ -143,8 +143,8 @@ function Index() {
             />
             <FeatureCard
               icon={<Languages className="size-5" />}
-              title="Persian translations & examples"
-              description="Meanings and practical sentences side by side"
+              title="Persian translations"
+              description="Natural, context-aware meanings for every entry"
             />
             <FeatureCard
               icon={<Volume2 className="size-5" />}
@@ -152,19 +152,14 @@ function Index() {
               description="Native-speaker recordings for every word"
             />
             <FeatureCard
-              icon={<Smartphone className="size-5" />}
-              title="Easy learning system"
-              description="Study on any device, at your own pace"
-            />
-            <FeatureCard
               icon={<Target className="size-5" />}
               title="Practical examples"
               description="Real sentences you'll actually use"
             />
             <FeatureCard
-              icon={<Sprout className="size-5" />}
-              title="Beginner friendly"
-              description="No prior knowledge needed to start"
+              icon={<Smartphone className="size-5" />}
+              title="Easy learning system"
+              description="Study on any device, at your own pace"
             />
           </div>
         </section>
