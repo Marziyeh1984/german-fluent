@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import {
   BookOpen,
   Check,
@@ -86,18 +86,18 @@ function Index() {
               pronunciation, and real-life examples — built for true beginners.
             </p>
             <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-              <Link
-                to="#pricing"
+              <a
+                href="#pricing"
                 className="rounded-2xl bg-primary px-6 py-3.5 text-center text-[15px] font-semibold text-primary-foreground shadow-lg shadow-primary/20 transition-transform hover:-translate-y-0.5"
               >
                 Get the Package Now
-              </Link>
-              <Link
-                to="#sample"
+              </a>
+              <a
+                href="#sample"
                 className="rounded-2xl border border-white/15 bg-white/10 px-6 py-3.5 text-center text-[14px] font-medium text-white backdrop-blur-md transition-transform hover:-translate-y-0.5"
               >
                 Preview a Free Lesson
-              </Link>
+              </a>
             </div>
           </div>
 
@@ -296,12 +296,12 @@ function Index() {
               Your first words are one tap away. Join thousands of learners
               building real confidence.
             </p>
-            <Link
-              to="#pricing"
+            <a
+              href="#pricing"
               className="mt-5 inline-block rounded-2xl bg-white px-8 py-3.5 text-[15px] font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5"
             >
               Get the Package Now
-            </Link>
+            </a>
           </div>
         </section>
 
