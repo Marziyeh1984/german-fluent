@@ -197,7 +197,7 @@ function Index() {
       <section className="bg-background px-5 py-20 text-center md:px-10 md:py-28">
         <p className="text-sm font-semibold uppercase text-primary">Your first words are waiting</p>
         <h2 className="mx-auto mt-4 max-w-4xl text-5xl font-medium uppercase leading-none md:text-8xl">Start speaking German today</h2>
-        <Button asChild size="lg" className="mt-9 h-14 rounded-full px-8 text-base"><a href="#pricing">Get the Package for $3</a></Button>
+        <Button asChild size="lg" className="mt-9 h-14 rounded-full px-8 text-base"><a href="#pricing">Choose Your Package</a></Button>
       </section>
 
       <footer className="border-t border-border bg-background px-5 py-8 md:px-10"><div className="mx-auto flex max-w-7xl flex-col gap-3 text-sm sm:flex-row sm:items-center sm:justify-between"><strong className="font-medium">Sprachwasser</strong><span className="text-muted-foreground">© 2026 · Learn. Speak. Repeat.</span></div></footer>
