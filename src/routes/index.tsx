@@ -33,11 +33,12 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   const features = [
-    ["01", "Essential German vocabulary", "500+ words selected for useful daily conversations."],
-    ["02", "Persian translations", "Clear, natural meanings that make every word easier to remember."],
-    ["03", "Pronunciation audio", "Native-speaker recordings so you can hear and repeat correctly."],
-    ["04", "Practical examples", "Real sentences that show exactly how each word is used."],
-    ["05", "Easy learning system", "A simple sequence built for steady, stress-free progress."],
+    ["01", "Essential German vocabulary", "500+ practical words and phrases selected for real daily conversations."],
+    ["02", "English translations", "Clear English meanings so you understand every word at a glance."],
+    ["03", "Persian translations", "Natural Persian meanings that make German easier to remember."],
+    ["04", "German pronunciation audio", "Native-speaker recordings so you hear and repeat every word correctly."],
+    ["05", "Practical examples", "Real sentences that show exactly how each word is used in context."],
+    ["06", "Easy learning system", "A simple sequence built for steady, stress-free progress."],
   ];
 
   return (
