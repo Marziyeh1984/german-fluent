@@ -57,17 +57,14 @@ function Index() {
         <h1 className="max-w-6xl text-5xl font-medium uppercase leading-[0.92] md:text-7xl lg:text-8xl">
           Your practical path to learning German
         </h1>
-        <div className="mt-12 grid gap-8 md:grid-cols-[1fr_1.05fr] md:items-end">
-          <div>
-            <p className="max-w-lg text-xl leading-relaxed text-muted-foreground md:text-2xl">
-              Useful German vocabulary, phrases, grammar, pronunciation, and real-life lessons with English and Persian support. Free & premium packages for learning German faster and easier.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <Button asChild size="lg" className="h-14 rounded-full px-7 text-base"><a href="#pricing">Get the Package Now</a></Button>
-              <Button asChild variant="outline" size="lg" className="h-14 rounded-full border-foreground bg-transparent px-7 text-base"><a href="#sample">Free lesson <ArrowDown /></a></Button>
-            </div>
+        <div className="mt-12">
+          <p className="max-w-2xl text-xl leading-relaxed text-muted-foreground md:text-2xl">
+            Useful German vocabulary, phrases, grammar, pronunciation, and real-life lessons with English and Persian support. Free & premium packages for learning German faster and easier.
+          </p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Button asChild size="lg" className="h-14 rounded-full px-7 text-base"><a href="#pricing">Get the Package Now</a></Button>
+            <Button asChild variant="outline" size="lg" className="h-14 rounded-full border-foreground bg-transparent px-7 text-base"><a href="#sample">Free lesson <ArrowDown /></a></Button>
           </div>
-          <img src={heroImage} alt="German vocabulary cards for beginner language learning" width={1024} height={768} className="aspect-[4/3] w-full rounded-[2rem] object-cover" />
         </div>
       </section>
 
