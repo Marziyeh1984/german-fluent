@@ -93,7 +93,7 @@ function Index() {
           <div>
             <p className="text-sm font-semibold uppercase">Free sample lesson</p>
             <h2 className="mt-3 text-5xl font-medium uppercase leading-none md:text-7xl">Say hallo before you buy</h2>
-            <p className="mt-6 max-w-lg text-lg leading-relaxed opacity-80">Preview Lesson 01 and see how German, Persian meaning, audio and a real sentence work together.</p>
+            <p className="mt-6 max-w-lg text-lg leading-relaxed opacity-80">Preview Lesson 01 and see how German, English meaning, Persian meaning, audio and a real sentence work together.</p>
           </div>
           <div className="rounded-[2rem] bg-card p-6 text-card-foreground md:p-8">
             <div className="flex items-start justify-between gap-5">
