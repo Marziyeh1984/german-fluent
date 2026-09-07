@@ -89,19 +89,50 @@ function Index() {
       </section>
 
       <section id="sample" className="bg-primary py-16 text-primary-foreground md:py-24">
-        <div className="mx-auto grid max-w-7xl gap-10 px-5 md:grid-cols-2 md:items-center md:px-10">
-          <div>
-            <p className="text-sm font-semibold uppercase">Free sample lesson</p>
-            <h2 className="mt-3 text-5xl font-medium uppercase leading-none md:text-7xl">Say hallo before you buy</h2>
-            <p className="mt-6 max-w-lg text-lg leading-relaxed opacity-80">Preview Lesson 01 and see how German, English meaning, Persian meaning, audio and a real sentence work together.</p>
-          </div>
-          <div className="rounded-[2rem] bg-card p-6 text-card-foreground md:p-8">
-            <div className="flex items-start justify-between gap-5">
-              <div><span className="text-sm text-muted-foreground">Lesson 01 · Greetings</span><h3 className="mt-3 text-4xl font-medium">Hallo</h3><p className="mt-2 text-xl">سلام</p></div>
-              <Button size="icon" className="size-14 rounded-full" aria-label="Play pronunciation"><Play className="size-5 fill-current" /></Button>
+        <div className="mx-auto max-w-7xl px-5 md:px-10">
+          <p className="text-sm font-semibold uppercase">Free Package</p>
+          <h2 className="mt-3 max-w-3xl text-5xl font-medium uppercase leading-none md:text-7xl">Preview lessons before you buy</h2>
+          <p className="mt-6 max-w-2xl text-lg leading-relaxed opacity-80">Preview lessons and see how German, English meaning, Persian meaning, audio and a real sentence work together.</p>
+          <div className="mt-12 grid gap-6 md:grid-cols-3">
+            <div className="rounded-[2rem] bg-card p-6 text-card-foreground md:p-8">
+              <div className="flex items-start justify-between gap-5">
+                <div>
+                  <span className="text-sm text-muted-foreground">Lesson 01 · Greetings</span>
+                  <h3 className="mt-3 text-4xl font-medium">Hallo</h3>
+                  <p className="mt-1 text-lg text-muted-foreground">Hello</p>
+                  <p className="mt-1 text-xl">سلام</p>
+                </div>
+                <Button size="icon" className="size-12 rounded-full" aria-label="Play pronunciation"><Play className="size-5 fill-current" /></Button>
+              </div>
+              <p className="mt-8 border-t border-border pt-5 text-lg">“Hallo, wie geht’s?”</p>
+              <Button variant="outline" className="mt-5 h-12 w-full rounded-full border-foreground bg-transparent">Download free sample</Button>
             </div>
-            <p className="mt-10 border-t border-border pt-5 text-lg">“Hallo, wie geht’s?”</p>
-            <Button variant="outline" className="mt-6 h-12 w-full rounded-full border-foreground bg-transparent">Download free sample</Button>
+            <div className="rounded-[2rem] bg-card p-6 text-card-foreground md:p-8">
+              <div className="flex items-start justify-between gap-5">
+                <div>
+                  <span className="text-sm text-muted-foreground">Lesson 02 · Numbers</span>
+                  <h3 className="mt-3 text-4xl font-medium">Eins</h3>
+                  <p className="mt-1 text-lg text-muted-foreground">One</p>
+                  <p className="mt-1 text-xl">یک</p>
+                </div>
+                <Button size="icon" className="size-12 rounded-full" aria-label="Play pronunciation"><Play className="size-5 fill-current" /></Button>
+              </div>
+              <p className="mt-8 border-t border-border pt-5 text-lg">“Ich habe eine Frage.”</p>
+              <Button variant="outline" className="mt-5 h-12 w-full rounded-full border-foreground bg-transparent">Download free sample</Button>
+            </div>
+            <div className="rounded-[2rem] bg-card p-6 text-card-foreground md:p-8">
+              <div className="flex items-start justify-between gap-5">
+                <div>
+                  <span className="text-sm text-muted-foreground">Lesson 03 · Phrases</span>
+                  <h3 className="mt-3 text-4xl font-medium">Danke</h3>
+                  <p className="mt-1 text-lg text-muted-foreground">Thanks</p>
+                  <p className="mt-1 text-xl">ممنون</p>
+                </div>
+                <Button size="icon" className="size-12 rounded-full" aria-label="Play pronunciation"><Play className="size-5 fill-current" /></Button>
+              </div>
+              <p className="mt-8 border-t border-border pt-5 text-lg">“Danke schön!”</p>
+              <Button variant="outline" className="mt-5 h-12 w-full rounded-full border-foreground bg-transparent">Download free sample</Button>
+            </div>
           </div>
         </div>
       </section>
