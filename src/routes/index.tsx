@@ -1,7 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowDown, Check, Menu, Play } from "lucide-react";
 
-import heroImage from "@/assets/hero-german.jpg";
 import { Button } from "@/components/ui/button";
 
 export const Route = createFileRoute("/")({
