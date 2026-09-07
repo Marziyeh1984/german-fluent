@@ -122,7 +122,7 @@ function Index() {
             <p className="text-sm font-semibold uppercase">Complete package</p>
             <div className="mt-5 flex items-end gap-3"><span className="text-7xl font-medium">$3</span><span className="mb-2 text-lg text-muted-foreground">one time</span></div>
             <ul className="mt-8 space-y-4 border-t border-border pt-6">
-              {["500+ words with Persian meanings", "Full pronunciation audio set", "Practical example sentences", "Lifetime access and updates"].map(item => <li key={item} className="flex gap-3"><Check className="mt-0.5 size-5 shrink-0 text-primary" />{item}</li>)}
+              {["500+ German words with English & Persian meanings", "Native German pronunciation audio", "Practical example sentences", "Lifetime access and updates"].map(item => <li key={item} className="flex gap-3"><Check className="mt-0.5 size-5 shrink-0 text-primary" />{item}</li>)}
             </ul>
             <Button className="mt-8 h-14 w-full rounded-full text-base">Get the Package Now</Button>
             <p className="mt-4 text-center text-sm text-muted-foreground">Instant download · 30-day guarantee</p>
