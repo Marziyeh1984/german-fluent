@@ -147,7 +147,7 @@ function Index() {
       </section>
 
       <footer className="border-t border-border bg-background px-5 py-8 md:px-10"><div className="mx-auto flex max-w-7xl flex-col gap-3 text-sm sm:flex-row sm:items-center sm:justify-between"><strong className="font-medium">Sprachwasser</strong><span className="text-muted-foreground">© 2026 · Learn. Speak. Repeat.</span></div></footer>
-    </div>
+    </main>
   );
 }
 
