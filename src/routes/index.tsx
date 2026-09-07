@@ -53,14 +53,14 @@ function Index() {
       </header>
 
       <section id="top" className="mx-auto max-w-7xl px-5 pb-16 pt-14 md:px-10 md:pb-24 md:pt-20">
-        <p className="mb-5 text-sm font-semibold uppercase">Practical German · Persian support</p>
+        <p className="mb-5 text-sm font-semibold uppercase">PRACTICAL GERMAN · English and PERSIAN SUPPORT</p>
         <h1 className="max-w-6xl text-5xl font-medium uppercase leading-[0.92] md:text-7xl lg:text-8xl">
-          Learn German faster with words you actually use
+          Your practical path to learning German
         </h1>
         <div className="mt-12 grid gap-8 md:grid-cols-[1fr_1.05fr] md:items-end">
           <div>
             <p className="max-w-lg text-xl leading-relaxed text-muted-foreground md:text-2xl">
-              Essential German vocabulary with Persian meanings, native pronunciation and practical examples — made for true beginners.
+              Useful German vocabulary, phrases, grammar, pronunciation, and real-life lessons with English and Persian support. Free & premium packages for learning German faster and easier.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button asChild size="lg" className="h-14 rounded-full px-7 text-base"><a href="#pricing">Get the Package Now</a></Button>
