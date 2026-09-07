@@ -75,7 +75,7 @@ function Index() {
       <section className="bg-card py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-5 md:px-10">
           <p className="text-sm font-semibold uppercase text-primary">Inside the package</p>
-          <h2 className="mt-3 max-w-3xl text-4xl font-medium uppercase leading-none md:text-6xl">Everything you need to start speaking</h2>
+          <h2 className="mt-3 max-w-3xl text-4xl font-medium uppercase leading-none md:text-6xl">Vocabulary, translations & pronunciation</h2>
           <div className="mt-12 border-t border-foreground">
             {features.map(([number, title, description]) => (
               <article key={number} className="grid gap-3 border-b border-border py-6 md:grid-cols-[5rem_1fr_1fr] md:items-center">
