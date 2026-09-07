@@ -33,11 +33,12 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   const features = [
-    ["01", "Essential German vocabulary", "500+ words selected for useful daily conversations."],
-    ["02", "Persian translations", "Clear, natural meanings that make every word easier to remember."],
-    ["03", "Pronunciation audio", "Native-speaker recordings so you can hear and repeat correctly."],
-    ["04", "Practical examples", "Real sentences that show exactly how each word is used."],
-    ["05", "Easy learning system", "A simple sequence built for steady, stress-free progress."],
+    ["01", "Essential German vocabulary", "500+ practical words and phrases selected for real daily conversations."],
+    ["02", "English translations", "Clear English meanings so you understand every word at a glance."],
+    ["03", "Persian translations", "Natural Persian meanings that make German easier to remember."],
+    ["04", "German pronunciation audio", "Native-speaker recordings so you hear and repeat every word correctly."],
+    ["05", "Practical examples", "Real sentences that show exactly how each word is used in context."],
+    ["06", "Easy learning system", "A simple sequence built for steady, stress-free progress."],
   ];
 
   return (
@@ -74,7 +75,7 @@ function Index() {
       <section className="bg-card py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-5 md:px-10">
           <p className="text-sm font-semibold uppercase text-primary">Inside the package</p>
-          <h2 className="mt-3 max-w-3xl text-4xl font-medium uppercase leading-none md:text-6xl">Everything you need to start speaking</h2>
+          <h2 className="mt-3 max-w-3xl text-4xl font-medium uppercase leading-none md:text-6xl">Vocabulary, translations & pronunciation</h2>
           <div className="mt-12 border-t border-foreground">
             {features.map(([number, title, description]) => (
               <article key={number} className="grid gap-3 border-b border-border py-6 md:grid-cols-[5rem_1fr_1fr] md:items-center">
@@ -92,7 +93,7 @@ function Index() {
           <div>
             <p className="text-sm font-semibold uppercase">Free sample lesson</p>
             <h2 className="mt-3 text-5xl font-medium uppercase leading-none md:text-7xl">Say hallo before you buy</h2>
-            <p className="mt-6 max-w-lg text-lg leading-relaxed opacity-80">Preview Lesson 01 and see how German, Persian meaning, audio and a real sentence work together.</p>
+            <p className="mt-6 max-w-lg text-lg leading-relaxed opacity-80">Preview Lesson 01 and see how German, English meaning, Persian meaning, audio and a real sentence work together.</p>
           </div>
           <div className="rounded-[2rem] bg-card p-6 text-card-foreground md:p-8">
             <div className="flex items-start justify-between gap-5">
@@ -121,7 +122,7 @@ function Index() {
             <p className="text-sm font-semibold uppercase">Complete package</p>
             <div className="mt-5 flex items-end gap-3"><span className="text-7xl font-medium">$3</span><span className="mb-2 text-lg text-muted-foreground">one time</span></div>
             <ul className="mt-8 space-y-4 border-t border-border pt-6">
-              {["500+ words with Persian meanings", "Full pronunciation audio set", "Practical example sentences", "Lifetime access and updates"].map(item => <li key={item} className="flex gap-3"><Check className="mt-0.5 size-5 shrink-0 text-primary" />{item}</li>)}
+              {["500+ German words with English & Persian meanings", "Native German pronunciation audio", "Practical example sentences", "Lifetime access and updates"].map(item => <li key={item} className="flex gap-3"><Check className="mt-0.5 size-5 shrink-0 text-primary" />{item}</li>)}
             </ul>
             <Button className="mt-8 h-14 w-full rounded-full text-base">Get the Package Now</Button>
             <p className="mt-4 text-center text-sm text-muted-foreground">Instant download · 30-day guarantee</p>
@@ -133,7 +134,7 @@ function Index() {
         <div className="mx-auto max-w-4xl px-5 md:px-10">
           <h2 className="text-4xl font-medium uppercase leading-none md:text-6xl">Questions, answered</h2>
           <div className="mt-10 border-t border-foreground">
-            <FaqItem question="Is this package suitable for beginners?" answer="Yes. It begins at absolute zero and focuses on the most useful everyday German words." />
+            <FaqItem question="Is this package suitable for beginners?" answer="Yes. It starts at absolute zero and focuses on the most useful everyday German words, with English and Persian meanings plus native pronunciation audio." />
             <FaqItem question="How will I receive the files after purchase?" answer="You’ll receive an instant download link by email immediately after checkout." />
             <FaqItem question="Can I use it on my phone?" answer="Yes. The PDF lessons and audio files work on phones, tablets and computers." />
           </div>
