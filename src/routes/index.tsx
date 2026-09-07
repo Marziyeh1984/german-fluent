@@ -134,7 +134,7 @@ function Index() {
         <div className="mx-auto max-w-4xl px-5 md:px-10">
           <h2 className="text-4xl font-medium uppercase leading-none md:text-6xl">Questions, answered</h2>
           <div className="mt-10 border-t border-foreground">
-            <FaqItem question="Is this package suitable for beginners?" answer="Yes. It begins at absolute zero and focuses on the most useful everyday German words." />
+            <FaqItem question="Is this package suitable for beginners?" answer="Yes. It starts at absolute zero and focuses on the most useful everyday German words, with English and Persian meanings plus native pronunciation audio." />
             <FaqItem question="How will I receive the files after purchase?" answer="You’ll receive an instant download link by email immediately after checkout." />
             <FaqItem question="Can I use it on my phone?" answer="Yes. The PDF lessons and audio files work on phones, tablets and computers." />
           </div>
