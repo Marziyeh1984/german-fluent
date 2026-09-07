@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ArrowDown, Check, Menu, Play, Volume2 } from "lucide-react";
+import { ArrowDown, Check, Menu, Play } from "lucide-react";
 
 import heroImage from "@/assets/hero-german.jpg";
 import { Button } from "@/components/ui/button";
@@ -147,7 +147,7 @@ function Index() {
       </section>
 
       <footer className="border-t border-border bg-background px-5 py-8 md:px-10"><div className="mx-auto flex max-w-7xl flex-col gap-3 text-sm sm:flex-row sm:items-center sm:justify-between"><strong className="font-medium">Sprachwasser</strong><span className="text-muted-foreground">© 2026 · Learn. Speak. Repeat.</span></div></footer>
-    </div>
+    </main>
   );
 }
 
