@@ -86,10 +86,19 @@ function Index() {
           <p className="text-sm font-semibold uppercase">Free Package</p>
           <h2 className="mt-3 max-w-3xl text-5xl font-medium uppercase leading-none md:text-7xl">Preview lessons before you buy</h2>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed opacity-80">English and Persian meaning, audio and a real sentence work together.</p>
-          <div className="mt-10 grid gap-4 md:grid-cols-3 md:max-w-4xl md:mx-auto">
-            {["درس ۱", "درس ۲", "درس ۳"].map((label) => (
-              <div key={label} className="rounded-3xl bg-card p-6 text-center text-card-foreground md:p-8">
-                <span className="text-2xl font-medium md:text-3xl">{label}</span>
+          <div className="mt-10 grid gap-4 md:grid-cols-3 md:max-w-5xl md:mx-auto">
+            {[
+              { lesson: "Lesson 01 · Greetings" },
+              { lesson: "Lesson 02 · Numbers" },
+              { lesson: "Lesson 03 · Phrases" },
+            ].map(({ lesson }) => (
+              <div key={lesson} className="flex flex-col items-center rounded-3xl bg-card p-6 text-center text-card-foreground md:p-8">
+                <span className="text-xs font-semibold uppercase opacity-70">{lesson}</span>
+                <span className="mt-3 text-2xl font-medium md:text-3xl">100 Phrases to Start</span>
+                <div className="mt-6 flex w-full flex-col gap-2">
+                  <Button variant="outline" className="h-10 w-full rounded-full border-foreground bg-transparent text-sm">Download PDF</Button>
+                  <Button className="h-10 w-full rounded-full text-sm">Download Voice</Button>
+                </div>
               </div>
             ))}
           </div>
