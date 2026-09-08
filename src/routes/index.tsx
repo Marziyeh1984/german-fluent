@@ -32,12 +32,9 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   const features = [
-    ["01", "Essential German vocabulary", "500+ practical words and phrases selected for real daily conversations."],
-    ["02", "English translations", "Clear English meanings so you understand every word at a glance."],
-    ["03", "Persian translations", "Natural Persian meanings that make German easier to remember."],
-    ["04", "German pronunciation audio", "Native-speaker recordings so you hear and repeat every word correctly."],
-    ["05", "Practical examples", "Real sentences that show exactly how each word is used in context."],
-    ["06", "Easy learning system", "A simple sequence built for steady, stress-free progress."],
+    ["01", "English & Persian Translations", "Clear meanings in English and Persian to help you learn faster."],
+    ["02", "German Pronunciation Audio", "Native-speaker audio files to practice correct German pronunciation."],
+    ["03", "Structured Learning Path", "A simple step-by-step system for steady progress."],
   ];
 
   return (
@@ -71,7 +68,7 @@ function Index() {
       <section className="bg-card py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-5 md:px-10">
           <p className="text-sm font-semibold uppercase text-primary">Inside the package</p>
-          <h2 className="mt-3 max-w-3xl text-4xl font-medium uppercase leading-none md:text-6xl">Vocabulary, translations & pronunciation</h2>
+          <h2 className="mt-3 max-w-3xl text-4xl font-medium uppercase leading-none md:text-6xl">Translations & Pronunciation</h2>
           <div className="mt-12 border-t border-foreground">
             {features.map(([number, title, description]) => (
               <article key={number} className="grid gap-3 border-b border-border py-6 md:grid-cols-[5rem_1fr_1fr] md:items-center">
