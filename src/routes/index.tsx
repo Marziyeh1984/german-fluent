@@ -105,14 +105,6 @@ function Index() {
         </div>
       </section>
 
-      <section className="bg-background py-16 md:py-24">
-        <div className="mx-auto max-w-7xl px-5 md:px-10">
-          <h2 className="max-w-3xl text-4xl font-medium uppercase leading-none md:text-6xl">Designed around your real life</h2>
-          <div className="mt-12 grid grid-cols-2 gap-px overflow-hidden rounded-[2rem] border border-foreground bg-foreground md:grid-cols-4">
-            {["Learn anywhere", "Beginner friendly", "Lifetime access", "Simple & practical"].map((benefit, index) => <div key={benefit} className="min-h-44 bg-background p-5 md:min-h-56 md:p-7"><span className="text-sm text-primary">0{index + 1}</span><p className="mt-14 text-lg font-medium md:mt-24 md:text-xl">{benefit}</p></div>)}
-          </div>
-        </div>
-      </section>
 
       <section id="pricing" className="bg-secondary py-16 text-secondary-foreground md:py-24">
         <div className="mx-auto max-w-7xl px-5 md:px-10">
