@@ -113,7 +113,7 @@ function Index() {
             <h2 className="mt-3 text-5xl font-medium uppercase leading-none md:text-7xl">German Foundations</h2>
             <p className="mt-6 max-w-lg text-lg opacity-70">Build useful vocabulary at your own pace, on any phone, tablet or computer.</p>
           </div>
-          <div className="mt-12 grid gap-5 md:grid-cols-3">
+          <div className="mt-12 grid gap-4 md:grid-cols-3 md:max-w-5xl md:mx-auto">
             <div className="rounded-[2rem] bg-background p-6 text-foreground">
               <p className="text-xs font-semibold uppercase opacity-70">Starter package</p>
               <div className="mt-3 flex items-end gap-2"><span className="text-5xl font-medium">$3</span><span className="mb-1 text-sm text-muted-foreground">one time</span></div>
