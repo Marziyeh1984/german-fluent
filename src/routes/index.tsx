@@ -85,12 +85,14 @@ function Index() {
         <div className="mx-auto max-w-7xl px-5 md:px-10">
           <p className="text-sm font-semibold uppercase">Free Package</p>
           <h2 className="mt-3 max-w-3xl text-5xl font-medium uppercase leading-none md:text-7xl">Preview lessons before you buy</h2>
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed opacity-80">Preview lessons and see how German, English meaning, Persian meaning, audio and a real sentence work together.</p>
-          <div className="mt-10 grid gap-4 md:grid-cols-3">
+          <p className="mt-6 max-w-2xl text-lg leading-relaxed opacity-80">English and Persian meaning, audio and a real sentence work together.</p>
+          <div className="mt-10 grid gap-4 md:grid-cols-3 md:max-w-5xl md:mx-auto">
             <div className="rounded-3xl bg-card p-5 text-card-foreground md:p-6">
               <div className="flex items-start justify-between gap-4">
                 <div>
-                  <span className="text-xs text-muted-foreground">Lesson 01 · Greetings</span>
+                  <span className="inline-block rounded-full bg-secondary px-3 py-1 text-xs font-semibold text-secondary-foreground">Package 1</span>
+                  <p className="mt-3 text-sm text-muted-foreground">100 عبارت مهم برای شروع</p>
+                  <span className="mt-4 block text-xs text-muted-foreground">Lesson 01 · Greetings</span>
                   <h3 className="mt-2 text-3xl font-medium">Hallo</h3>
                   <p className="mt-1 text-base text-muted-foreground">Hello</p>
                   <p className="mt-1 text-lg">سلام</p>
@@ -98,12 +100,17 @@ function Index() {
                 <Button size="icon" className="size-10 rounded-full" aria-label="Play pronunciation"><Play className="size-4 fill-current" /></Button>
               </div>
               <p className="mt-6 border-t border-border pt-4 text-base">“Hallo, wie geht’s?”</p>
-              <Button variant="outline" className="mt-4 h-10 w-full rounded-full border-foreground bg-transparent text-sm">Download free sample</Button>
+              <div className="mt-4 grid gap-2">
+                <Button variant="outline" className="h-10 w-full rounded-full border-foreground bg-transparent text-sm">Download PDF</Button>
+                <Button variant="outline" className="h-10 w-full rounded-full border-foreground bg-transparent text-sm">Download audio file</Button>
+              </div>
             </div>
             <div className="rounded-3xl bg-card p-5 text-card-foreground md:p-6">
               <div className="flex items-start justify-between gap-4">
                 <div>
-                  <span className="text-xs text-muted-foreground">Lesson 02 · Numbers</span>
+                  <span className="inline-block rounded-full bg-secondary px-3 py-1 text-xs font-semibold text-secondary-foreground">Package 1</span>
+                  <p className="mt-3 text-sm text-muted-foreground">100 عبارت مهم برای شروع</p>
+                  <span className="mt-4 block text-xs text-muted-foreground">Lesson 02 · Numbers</span>
                   <h3 className="mt-2 text-3xl font-medium">Eins</h3>
                   <p className="mt-1 text-base text-muted-foreground">One</p>
                   <p className="mt-1 text-lg">یک</p>
@@ -111,12 +118,17 @@ function Index() {
                 <Button size="icon" className="size-10 rounded-full" aria-label="Play pronunciation"><Play className="size-4 fill-current" /></Button>
               </div>
               <p className="mt-6 border-t border-border pt-4 text-base">“Ich habe eine Frage.”</p>
-              <Button variant="outline" className="mt-4 h-10 w-full rounded-full border-foreground bg-transparent text-sm">Download free sample</Button>
+              <div className="mt-4 grid gap-2">
+                <Button variant="outline" className="h-10 w-full rounded-full border-foreground bg-transparent text-sm">Download PDF</Button>
+                <Button variant="outline" className="h-10 w-full rounded-full border-foreground bg-transparent text-sm">Download audio file</Button>
+              </div>
             </div>
             <div className="rounded-3xl bg-card p-5 text-card-foreground md:p-6">
               <div className="flex items-start justify-between gap-4">
                 <div>
-                  <span className="text-xs text-muted-foreground">Lesson 03 · Phrases</span>
+                  <span className="inline-block rounded-full bg-secondary px-3 py-1 text-xs font-semibold text-secondary-foreground">Package 1</span>
+                  <p className="mt-3 text-sm text-muted-foreground">100 عبارت مهم برای شروع</p>
+                  <span className="mt-4 block text-xs text-muted-foreground">Lesson 03 · Phrases</span>
                   <h3 className="mt-2 text-3xl font-medium">Danke</h3>
                   <p className="mt-1 text-base text-muted-foreground">Thanks</p>
                   <p className="mt-1 text-lg">ممنون</p>
@@ -124,7 +136,10 @@ function Index() {
                 <Button size="icon" className="size-10 rounded-full" aria-label="Play pronunciation"><Play className="size-4 fill-current" /></Button>
               </div>
               <p className="mt-6 border-t border-border pt-4 text-base">“Danke schön!”</p>
-              <Button variant="outline" className="mt-4 h-10 w-full rounded-full border-foreground bg-transparent text-sm">Download free sample</Button>
+              <div className="mt-4 grid gap-2">
+                <Button variant="outline" className="h-10 w-full rounded-full border-foreground bg-transparent text-sm">Download PDF</Button>
+                <Button variant="outline" className="h-10 w-full rounded-full border-foreground bg-transparent text-sm">Download audio file</Button>
+              </div>
             </div>
           </div>
         </div>
