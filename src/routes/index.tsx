@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ArrowDown, Check, Menu, Play } from "lucide-react";
+import { ArrowDown, Check, Menu } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 
