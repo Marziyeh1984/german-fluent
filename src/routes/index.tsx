@@ -101,34 +101,18 @@ function Index() {
       <section id="pricing" className="bg-secondary py-12 text-secondary-foreground md:py-16">
         <div className="mx-auto max-w-7xl px-5 md:px-10">
           <div className="max-w-2xl">
-            <p className="text-sm font-semibold uppercase">Paid packages</p>
-            <h2 className="mt-2 text-4xl font-medium uppercase leading-none md:text-6xl">Choose your package. Lifetime access.</h2>
+            <p className="text-sm font-semibold uppercase">PAID PACKAGES</p>
+            <h2 className="mt-2 text-4xl font-medium uppercase leading-none md:text-6xl">One PACKAGE. LIFETIME ACCESS.</h2>
             <p className="mt-4 max-w-lg text-base opacity-70">Build useful documents at your own pace, on any phone, tablet or computer.</p>
           </div>
-          <div className="mt-8 grid gap-4 md:grid-cols-3 md:max-w-5xl md:mx-auto">
-            <div className="flex flex-col rounded-3xl bg-background p-5 text-foreground md:p-6">
-              <p className="text-xs font-semibold uppercase opacity-70">Starter package</p>
-              <div className="mt-2 flex items-end gap-2"><span className="text-4xl font-medium">$3</span><span className="mb-1 text-sm text-muted-foreground">one time</span></div>
-              <ul className="mt-4 space-y-2 border-t border-border pt-4 text-sm">
-                {["200+ essential German words", "English & Persian meanings", "Native pronunciation audio"].map(item => <li key={item} className="flex gap-2"><Check className="mt-0.5 size-4 shrink-0 text-primary" />{item}</li>)}
-              </ul>
-              <Button className="mt-5 h-11 w-full rounded-full text-sm">Get Starter</Button>
-            </div>
+          <div className="mt-8 grid gap-4 md:max-w-sm md:mx-auto">
             <div className="flex flex-col rounded-3xl bg-background p-5 text-foreground md:p-6">
               <p className="text-xs font-semibold uppercase opacity-70">Complete package</p>
-              <div className="mt-2 flex items-end gap-2"><span className="text-4xl font-medium">$5</span><span className="mb-1 text-sm text-muted-foreground">one time</span></div>
+              <div className="mt-2 flex items-end gap-2"><span className="text-4xl font-medium">$3</span><span className="mb-1 text-sm text-muted-foreground">one time</span></div>
               <ul className="mt-4 space-y-2 border-t border-border pt-4 text-sm">
                 {["500+ German words & phrases", "English & Persian meanings", "Native pronunciation audio", "Practical example sentences"].map(item => <li key={item} className="flex gap-2"><Check className="mt-0.5 size-4 shrink-0 text-primary" />{item}</li>)}
               </ul>
-              <Button className="mt-5 h-11 w-full rounded-full text-sm">Get Complete</Button>
-            </div>
-            <div className="flex flex-col rounded-3xl bg-background p-5 text-foreground md:p-6">
-              <p className="text-xs font-semibold uppercase opacity-70">Advanced package</p>
-              <div className="mt-2 flex items-end gap-2"><span className="text-4xl font-medium">$7</span><span className="mb-1 text-sm text-muted-foreground">one time</span></div>
-              <ul className="mt-4 space-y-2 border-t border-border pt-4 text-sm">
-                {["1000+ German words & phrases", "Grammar & real-life lessons", "English & Persian meanings", "Native pronunciation audio", "Lifetime updates"].map(item => <li key={item} className="flex gap-2"><Check className="mt-0.5 size-4 shrink-0 text-primary" />{item}</li>)}
-              </ul>
-              <Button className="mt-5 h-11 w-full rounded-full text-sm">Get Advanced</Button>
+              <Button className="mt-5 h-11 w-full rounded-full text-sm">Get Package</Button>
             </div>
           </div>
           <p className="mt-6 text-center text-sm opacity-70">Instant download · 30-day guarantee</p>
