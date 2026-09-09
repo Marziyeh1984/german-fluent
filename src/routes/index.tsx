@@ -106,13 +106,13 @@ function Index() {
             <p className="mt-4 max-w-lg text-base opacity-70">Build useful documents at your own pace, on any phone, tablet or computer.</p>
           </div>
           <div className="mt-8 grid gap-4 md:max-w-sm md:mx-auto">
-            <div className="flex flex-col rounded-3xl bg-background p-5 text-foreground md:p-6">
-              <p className="text-xs font-semibold uppercase opacity-70">Complete package</p>
-              <div className="mt-2 flex items-end gap-2"><span className="text-4xl font-medium">$3</span><span className="mb-1 text-sm text-muted-foreground">one time</span></div>
-              <ul className="mt-4 space-y-2 border-t border-border pt-4 text-sm">
-                {["500+ German words & phrases", "English & Persian meanings", "Native pronunciation audio", "Practical example sentences"].map(item => <li key={item} className="flex gap-2"><Check className="mt-0.5 size-4 shrink-0 text-primary" />{item}</li>)}
-              </ul>
-              <Button className="mt-5 h-11 w-full rounded-full text-sm">Get Package</Button>
+            <div className="flex flex-col items-center rounded-3xl bg-card p-5 text-center text-card-foreground md:p-6">
+              <span className="text-xs font-semibold uppercase opacity-70">Complete package</span>
+              <span className="mt-2 text-xl font-medium md:text-2xl">$3</span>
+              <div className="mt-5 flex w-full flex-col gap-2">
+                <Button className="h-9 w-full rounded-full text-sm">Get Package</Button>
+                <Button variant="outline" className="h-9 w-full rounded-full border-foreground bg-transparent text-sm">View Details</Button>
+              </div>
             </div>
           </div>
           <p className="mt-6 text-center text-sm opacity-70">Instant download · 30-day guarantee</p>
