@@ -84,23 +84,16 @@ function Index() {
       <section id="sample" className="bg-primary py-12 text-primary-foreground md:py-16">
         <div className="mx-auto max-w-7xl px-5 md:px-10">
           <p className="text-sm font-semibold uppercase">Free Package</p>
-          <h2 className="mt-2 max-w-3xl text-4xl font-medium uppercase leading-none md:text-6xl">Preview lessons before you buy</h2>
           <p className="mt-4 max-w-2xl text-base leading-relaxed opacity-80">English and Persian meaning, audio and a real sentence work together.</p>
-          <div className="mt-8 grid gap-4 md:grid-cols-3 md:max-w-5xl md:mx-auto">
-            {[
-              { lesson: "Lesson 01 · Greetings" },
-              { lesson: "Lesson 02 · Numbers" },
-              { lesson: "Lesson 03 · Phrases" },
-            ].map(({ lesson }) => (
-              <div key={lesson} className="flex flex-col items-center rounded-3xl bg-card p-5 text-center text-card-foreground md:p-6">
-                <span className="text-xs font-semibold uppercase opacity-70">{lesson}</span>
-                <span className="mt-2 text-xl font-medium md:text-2xl">100 Phrases to Start</span>
-                <div className="mt-5 flex w-full flex-col gap-2">
-                  <Button variant="outline" className="h-9 w-full rounded-full border-foreground bg-transparent text-sm">Download PDF</Button>
-                  <Button className="h-9 w-full rounded-full text-sm">Download Voice</Button>
-                </div>
+          <div className="mt-8 grid gap-4 md:max-w-sm md:mx-auto">
+            <div className="flex flex-col items-center rounded-3xl bg-card p-5 text-center text-card-foreground md:p-6">
+              <span className="text-xs font-semibold uppercase opacity-70">Lesson 01 · Greetings</span>
+              <span className="mt-2 text-xl font-medium md:text-2xl">100 Phrases to Start</span>
+              <div className="mt-5 flex w-full flex-col gap-2">
+                <Button variant="outline" className="h-9 w-full rounded-full border-foreground bg-transparent text-sm">Download PDF</Button>
+                <Button className="h-9 w-full rounded-full text-sm">Download Voice</Button>
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </section>
