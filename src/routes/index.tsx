@@ -108,12 +108,12 @@ function Index() {
       <section id="pricing" className="bg-secondary py-12 text-secondary-foreground md:py-16">
         <div className="mx-auto max-w-7xl px-5 md:px-10">
           <div className="max-w-2xl">
-            <p className="text-sm font-semibold uppercase">Choose your package. Lifetime access.</p>
-            <h2 className="mt-2 text-4xl font-medium uppercase leading-none md:text-6xl">German Foundations</h2>
-            <p className="mt-4 max-w-lg text-base opacity-70">Build useful vocabulary at your own pace, on any phone, tablet or computer.</p>
+            <p className="text-sm font-semibold uppercase">Paid packages</p>
+            <h2 className="mt-2 text-4xl font-medium uppercase leading-none md:text-6xl">Choose your package. Lifetime access.</h2>
+            <p className="mt-4 max-w-lg text-base opacity-70">Build useful documents at your own pace, on any phone, tablet or computer.</p>
           </div>
           <div className="mt-8 grid gap-4 md:grid-cols-3 md:max-w-5xl md:mx-auto">
-            <div className="rounded-[2rem] bg-background p-5 text-foreground">
+            <div className="flex flex-col rounded-3xl bg-background p-5 text-foreground md:p-6">
               <p className="text-xs font-semibold uppercase opacity-70">Starter package</p>
               <div className="mt-2 flex items-end gap-2"><span className="text-4xl font-medium">$3</span><span className="mb-1 text-sm text-muted-foreground">one time</span></div>
               <ul className="mt-4 space-y-2 border-t border-border pt-4 text-sm">
@@ -121,7 +121,7 @@ function Index() {
               </ul>
               <Button className="mt-5 h-11 w-full rounded-full text-sm">Get Starter</Button>
             </div>
-            <div className="rounded-[2rem] bg-background p-5 text-foreground">
+            <div className="flex flex-col rounded-3xl bg-background p-5 text-foreground md:p-6">
               <p className="text-xs font-semibold uppercase opacity-70">Complete package</p>
               <div className="mt-2 flex items-end gap-2"><span className="text-4xl font-medium">$5</span><span className="mb-1 text-sm text-muted-foreground">one time</span></div>
               <ul className="mt-4 space-y-2 border-t border-border pt-4 text-sm">
@@ -129,7 +129,7 @@ function Index() {
               </ul>
               <Button className="mt-5 h-11 w-full rounded-full text-sm">Get Complete</Button>
             </div>
-            <div className="rounded-[2rem] bg-background p-5 text-foreground">
+            <div className="flex flex-col rounded-3xl bg-background p-5 text-foreground md:p-6">
               <p className="text-xs font-semibold uppercase opacity-70">Advanced package</p>
               <div className="mt-2 flex items-end gap-2"><span className="text-4xl font-medium">$7</span><span className="mb-1 text-sm text-muted-foreground">one time</span></div>
               <ul className="mt-4 space-y-2 border-t border-border pt-4 text-sm">
