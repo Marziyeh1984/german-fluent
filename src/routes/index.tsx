@@ -98,7 +98,7 @@ function Index() {
         </div>
       </section>
 
-      <section id="pricing" className="bg-secondary py-12 text-secondary-foreground md:py-16">
+      <section id="pricing" className="bg-primary py-12 text-primary-foreground md:py-16">
         <div className="mx-auto max-w-7xl px-5 md:px-10">
           <div className="max-w-2xl">
             <p className="text-sm font-semibold uppercase">PAID PACKAGES</p>
