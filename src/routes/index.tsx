@@ -98,24 +98,24 @@ function Index() {
         </div>
       </section>
 
-      <section id="pricing" className="bg-accent-teal py-12 text-brand-deep md:py-16">
+      <section id="pricing" className="bg-accent-teal py-10 text-brand-deep md:py-16">
         <div className="mx-auto max-w-7xl px-5 md:px-10">
           <div className="max-w-2xl">
-            <p className="text-sm font-semibold uppercase">PAID PACKAGES</p>
-            <h2 className="mt-2 text-4xl font-medium uppercase leading-none md:text-6xl">One PACKAGE. LIFETIME ACCESS.</h2>
-            <p className="mt-4 max-w-lg text-base opacity-70">Build useful documents at your own pace, on any phone, tablet or computer.</p>
+            <p className="text-xs font-semibold uppercase sm:text-sm">PAID PACKAGES</p>
+            <h2 className="mt-2 text-3xl font-medium uppercase leading-none sm:text-4xl md:text-6xl">One PACKAGE. LIFETIME ACCESS.</h2>
+            <p className="mt-4 max-w-lg text-sm opacity-70 sm:text-base">Build useful documents at your own pace, on any phone, tablet or computer.</p>
           </div>
-          <div className="mt-8 grid gap-4 md:max-w-sm md:mx-auto">
-            <div className="flex flex-col items-center rounded-3xl bg-card p-5 text-center text-card-foreground md:p-6">
-              <span className="text-xs font-semibold uppercase opacity-70">Complete package</span>
-              <span className="mt-2 text-xl font-medium md:text-2xl">$3</span>
-              <div className="mt-5 flex w-full flex-col gap-2">
-                <Button className="h-9 w-full rounded-full bg-brand-deep text-cream text-sm hover:bg-brand-deep/90">Get Package</Button>
-                <Button variant="outline" className="h-9 w-full rounded-full border-brand-deep bg-transparent text-sm text-brand-deep hover:bg-brand-deep/10">View Details</Button>
+          <div className="mt-6 grid gap-4 sm:mt-8 sm:max-w-sm sm:mx-auto">
+            <div className="flex flex-col items-center rounded-3xl bg-card p-4 text-center text-card-foreground sm:p-5 md:p-6">
+              <span className="text-[11px] font-semibold uppercase opacity-70 sm:text-xs">Complete package</span>
+              <span className="mt-2 text-2xl font-medium sm:text-3xl">$3</span>
+              <div className="mt-4 flex w-full flex-col gap-2 sm:mt-5">
+                <Button className="h-10 w-full rounded-full bg-brand-deep text-cream text-sm hover:bg-brand-deep/90 sm:h-9">Get Package</Button>
+                <Button variant="outline" className="h-10 w-full rounded-full border-brand-deep bg-transparent text-sm text-brand-deep hover:bg-brand-deep/10 sm:h-9">View Details</Button>
               </div>
             </div>
           </div>
-          <p className="mt-6 text-center text-sm opacity-70">Instant download · 30-day guarantee</p>
+          <p className="mt-5 text-center text-xs opacity-70 sm:text-sm">Instant download · 30-day guarantee</p>
         </div>
       </section>
 
