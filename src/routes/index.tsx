@@ -1,7 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
+import * as React from "react";
 import { ArrowDown, Check, Menu } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -45,7 +47,20 @@ function Index() {
             <span className="grid size-11 place-items-center rounded-full bg-secondary text-lg font-medium text-secondary-foreground">S</span>
             <span><strong className="block text-base font-medium">Sprachwasser</strong><span className="block text-sm text-muted-foreground">German for beginners</span></span>
           </a>
-          <Button size="icon" aria-label="Open menu" className="size-11 rounded-2xl"><Menu className="size-5" /></Button>
+          <Sheet>
+            <SheetTrigger asChild>
+              <Button size="icon" aria-label="Open menu" className="size-11 rounded-2xl"><Menu className="size-5" /></Button>
+            </SheetTrigger>
+            <SheetContent side="right" className="w-[18rem] border-border bg-background">
+              <SheetHeader>
+                <SheetTitle className="text-left text-base font-medium uppercase">Menu</SheetTitle>
+              </SheetHeader>
+              <nav className="mt-8 flex flex-col gap-2">
+                <a href="#sample" className="rounded-2xl px-4 py-3 text-base font-medium uppercase transition-colors hover:bg-secondary hover:text-secondary-foreground">Free Package</a>
+                <a href="#pricing" className="rounded-2xl px-4 py-3 text-base font-medium uppercase transition-colors hover:bg-secondary hover:text-secondary-foreground">Paid Package</a>
+              </nav>
+            </SheetContent>
+          </Sheet>
         </div>
       </header>
 
