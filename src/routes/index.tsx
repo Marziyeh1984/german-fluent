@@ -1,7 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ArrowDown, Check, Menu } from "lucide-react";
+import * as React from "react";
+import { ArrowDown, Check, Menu, X } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 
 export const Route = createFileRoute("/")({
   component: Index,
