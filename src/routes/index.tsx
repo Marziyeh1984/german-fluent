@@ -98,7 +98,7 @@ function Index() {
         </div>
       </section>
 
-      <section id="pricing" className="bg-primary py-12 text-primary-foreground md:py-16">
+      <section id="pricing" className="bg-accent-teal py-12 text-brand-deep md:py-16">
         <div className="mx-auto max-w-7xl px-5 md:px-10">
           <div className="max-w-2xl">
             <p className="text-sm font-semibold uppercase">PAID PACKAGES</p>
@@ -110,8 +110,8 @@ function Index() {
               <span className="text-xs font-semibold uppercase opacity-70">Complete package</span>
               <span className="mt-2 text-xl font-medium md:text-2xl">$3</span>
               <div className="mt-5 flex w-full flex-col gap-2">
-                <Button className="h-9 w-full rounded-full text-sm">Get Package</Button>
-                <Button variant="outline" className="h-9 w-full rounded-full border-foreground bg-transparent text-sm">View Details</Button>
+                <Button className="h-9 w-full rounded-full bg-brand-deep text-cream text-sm hover:bg-brand-deep/90">Get Package</Button>
+                <Button variant="outline" className="h-9 w-full rounded-full border-brand-deep bg-transparent text-sm text-brand-deep hover:bg-brand-deep/10">View Details</Button>
               </div>
             </div>
           </div>
