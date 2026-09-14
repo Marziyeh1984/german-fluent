@@ -66,10 +66,28 @@ function Index() {
               </SheetHeader>
               <nav className="mt-8 flex flex-col gap-2">
                 <SheetClose asChild>
-                  <a href="#sample" className="rounded-2xl px-4 py-3 text-base font-medium uppercase transition-colors hover:bg-secondary hover:text-secondary-foreground">Free Package</a>
+                  <a
+                    href="#sample"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setTimeout(() => document.getElementById("sample")?.scrollIntoView({ behavior: "smooth" }), 150);
+                    }}
+                    className="rounded-2xl px-4 py-3 text-base font-medium uppercase transition-colors hover:bg-secondary hover:text-secondary-foreground"
+                  >
+                    Free Package
+                  </a>
                 </SheetClose>
                 <SheetClose asChild>
-                  <a href="#pricing" className="rounded-2xl px-4 py-3 text-base font-medium uppercase transition-colors hover:bg-secondary hover:text-secondary-foreground">Paid Package</a>
+                  <a
+                    href="#pricing"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setTimeout(() => document.getElementById("pricing")?.scrollIntoView({ behavior: "smooth" }), 150);
+                    }}
+                    className="rounded-2xl px-4 py-3 text-base font-medium uppercase transition-colors hover:bg-secondary hover:text-secondary-foreground"
+                  >
+                    Paid Package
+                  </a>
                 </SheetClose>
               </nav>
             </SheetContent>
