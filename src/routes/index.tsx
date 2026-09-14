@@ -33,6 +33,16 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
+  const [menuOpen, setMenuOpen] = React.useState(false);
+
+  const scrollTo = (id: string) => {
+    setMenuOpen(false);
+    setTimeout(() => {
+      const element = document.getElementById(id);
+      if (element) element.scrollIntoView({ behavior: "smooth" });
+    }, 400);
+  };
+
   const features = [
     ["01", "English & Persian Translations", "Clear meanings in English and Persian to help you learn faster."],
     ["02", "German Pronunciation Audio", "Native-speaker audio files to practice correct German pronunciation."],
@@ -56,7 +66,7 @@ function Index() {
             <span className="grid size-11 place-items-center rounded-full bg-secondary text-lg font-medium text-secondary-foreground">S</span>
             <span><strong className="block text-base font-medium">Sprachwasser</strong><span className="block text-sm text-muted-foreground">German for beginners</span></span>
           </a>
-          <Sheet>
+          <Sheet open={menuOpen} onOpenChange={setMenuOpen}>
             <SheetTrigger asChild>
               <Button size="icon" aria-label="Open menu" className="size-11 rounded-2xl"><Menu className="size-5" /></Button>
             </SheetTrigger>
@@ -65,8 +75,26 @@ function Index() {
                 <SheetTitle className="text-left text-base font-medium uppercase">Menu</SheetTitle>
               </SheetHeader>
               <nav className="mt-8 flex flex-col gap-2">
-                <a href="#sample" className="rounded-2xl px-4 py-3 text-base font-medium uppercase transition-colors hover:bg-secondary hover:text-secondary-foreground">Free Package</a>
-                <a href="#pricing" className="rounded-2xl px-4 py-3 text-base font-medium uppercase transition-colors hover:bg-secondary hover:text-secondary-foreground">Paid Package</a>
+                <a
+                  href="#sample"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollTo("sample");
+                  }}
+                  className="rounded-2xl px-4 py-3 text-base font-medium uppercase transition-colors hover:bg-secondary hover:text-secondary-foreground"
+                >
+                  Free Package
+                </a>
+                <a
+                  href="#pricing"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollTo("pricing");
+                  }}
+                  className="rounded-2xl px-4 py-3 text-base font-medium uppercase transition-colors hover:bg-secondary hover:text-secondary-foreground"
+                >
+                  Paid Package
+                </a>
               </nav>
             </SheetContent>
           </Sheet>
