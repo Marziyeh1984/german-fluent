@@ -41,7 +41,16 @@ function Index() {
 
   return (
     <main className="min-h-screen overflow-x-hidden bg-background font-sans text-foreground">
-      <header className="border-b border-border bg-background">
+      <div className="page-loader pointer-events-none fixed inset-0 z-50 grid place-items-center bg-background">
+        <div className="flex flex-col items-center gap-4">
+          <span className="grid size-14 place-items-center rounded-full bg-secondary text-xl font-medium text-secondary-foreground">S</span>
+          <span className="h-1 w-40 overflow-hidden rounded-full bg-foreground/15">
+            <span className="page-loader__bar block h-full w-full rounded-full bg-foreground" />
+          </span>
+        </div>
+      </div>
+
+      <header className="reveal border-b border-border bg-background" style={{ animationDelay: "0.15s" }}>
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-10">
           <a href="#top" className="flex items-center gap-3" aria-label="Sprachwasser home">
             <span className="grid size-11 place-items-center rounded-full bg-secondary text-lg font-medium text-secondary-foreground">S</span>
@@ -64,7 +73,7 @@ function Index() {
         </div>
       </header>
 
-      <section id="top" className="mx-auto max-w-7xl px-5 pb-12 pt-10 md:px-10 md:pb-16 md:pt-14">
+      <section id="top" style={{ animationDelay: "0.3s" }} className="reveal mx-auto max-w-7xl px-5 pb-12 pt-10 md:px-10 md:pb-16 md:pt-14">
         <p className="mb-4 text-sm font-semibold uppercase">PRACTICAL GERMAN · English and PERSIAN SUPPORT</p>
         <h1 className="max-w-6xl text-4xl font-medium uppercase leading-[0.92] md:text-6xl lg:text-7xl">
           Your practical path to learning German
@@ -80,7 +89,7 @@ function Index() {
         </div>
       </section>
 
-      <section className="bg-card py-12 md:py-16">
+      <section style={{ animationDelay: "0.45s" }} className="reveal bg-card py-12 md:py-16">
         <div className="mx-auto max-w-7xl px-5 md:px-10">
           <p className="text-sm font-semibold uppercase text-primary">Inside the package</p>
           <h2 className="mt-2 max-w-3xl text-3xl font-medium uppercase leading-none md:text-5xl">Translations & Pronunciation</h2>
@@ -96,7 +105,7 @@ function Index() {
         </div>
       </section>
 
-      <section id="sample" className="bg-primary py-12 text-primary-foreground md:py-16">
+      <section id="sample" style={{ animationDelay: "0.6s" }} className="reveal bg-primary py-12 text-primary-foreground md:py-16">
         <div className="mx-auto max-w-7xl px-5 md:px-10">
           <p className="text-sm font-semibold uppercase">Free Package</p>
           <p className="mt-4 max-w-2xl text-base leading-relaxed opacity-80">English and Persian meaning, audio and a real sentence work together.</p>
@@ -113,7 +122,7 @@ function Index() {
         </div>
       </section>
 
-      <section id="pricing" className="bg-secondary py-10 text-secondary-foreground md:py-16">
+      <section id="pricing" style={{ animationDelay: "0.75s" }} className="reveal bg-secondary py-10 text-secondary-foreground md:py-16">
         <div className="mx-auto max-w-7xl px-5 md:px-10">
           <div className="max-w-2xl">
             <p className="text-xs font-semibold uppercase sm:text-sm">PAID PACKAGES</p>
@@ -134,7 +143,7 @@ function Index() {
         </div>
       </section>
 
-      <section className="bg-card py-12 md:py-16">
+      <section style={{ animationDelay: "0.9s" }} className="reveal bg-card py-12 md:py-16">
         <div className="mx-auto max-w-4xl px-5 md:px-10">
           <h2 className="text-3xl font-medium uppercase leading-none md:text-5xl">Questions, answered</h2>
           <div className="mt-8 border-t border-foreground">
@@ -145,13 +154,13 @@ function Index() {
         </div>
       </section>
 
-      <section className="bg-background px-5 py-14 text-center md:px-10 md:py-20">
+      <section style={{ animationDelay: "1.05s" }} className="reveal bg-background px-5 py-14 text-center md:px-10 md:py-20">
         <p className="text-sm font-semibold uppercase text-primary">Your first words are waiting</p>
         <h2 className="mx-auto mt-3 max-w-4xl text-4xl font-medium uppercase leading-none md:text-7xl">Start speaking German today</h2>
         <Button asChild size="lg" className="mt-7 h-12 rounded-full px-7 text-base"><a href="#pricing">Choose Your Package</a></Button>
       </section>
 
-      <footer className="border-t border-border bg-background px-5 py-6 md:px-10"><div className="mx-auto flex max-w-7xl flex-col gap-2 text-sm sm:flex-row sm:items-center sm:justify-between"><strong className="font-medium">Sprachwasser</strong><span className="text-muted-foreground">© 2026 · Learn. Speak. Repeat.</span></div></footer>
+      <footer style={{ animationDelay: "1.2s" }} className="reveal border-t border-border bg-background px-5 py-6 md:px-10"><div className="mx-auto flex max-w-7xl flex-col gap-2 text-sm sm:flex-row sm:items-center sm:justify-between"><strong className="font-medium">Sprachwasser</strong><span className="text-muted-foreground">© 2026 · Learn. Speak. Repeat.</span></div></footer>
     </main>
   );
 }
