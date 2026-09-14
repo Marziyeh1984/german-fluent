@@ -33,6 +33,16 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
+  const [menuOpen, setMenuOpen] = React.useState(false);
+
+  const scrollTo = (id: string) => {
+    setMenuOpen(false);
+    setTimeout(() => {
+      const element = document.getElementById(id);
+      if (element) element.scrollIntoView({ behavior: "smooth" });
+    }, 200);
+  };
+
   const features = [
     ["01", "English & Persian Translations", "Clear meanings in English and Persian to help you learn faster."],
     ["02", "German Pronunciation Audio", "Native-speaker audio files to practice correct German pronunciation."],
