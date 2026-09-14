@@ -65,8 +65,12 @@ function Index() {
                 <SheetTitle className="text-left text-base font-medium uppercase">Menu</SheetTitle>
               </SheetHeader>
               <nav className="mt-8 flex flex-col gap-2">
-                <a href="#sample" className="rounded-2xl px-4 py-3 text-base font-medium uppercase transition-colors hover:bg-secondary hover:text-secondary-foreground">Free Package</a>
-                <a href="#pricing" className="rounded-2xl px-4 py-3 text-base font-medium uppercase transition-colors hover:bg-secondary hover:text-secondary-foreground">Paid Package</a>
+                <SheetClose asChild>
+                  <a href="#sample" className="rounded-2xl px-4 py-3 text-base font-medium uppercase transition-colors hover:bg-secondary hover:text-secondary-foreground">Free Package</a>
+                </SheetClose>
+                <SheetClose asChild>
+                  <a href="#pricing" className="rounded-2xl px-4 py-3 text-base font-medium uppercase transition-colors hover:bg-secondary hover:text-secondary-foreground">Paid Package</a>
+                </SheetClose>
               </nav>
             </SheetContent>
           </Sheet>
