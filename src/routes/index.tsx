@@ -40,7 +40,7 @@ function Index() {
     setTimeout(() => {
       const element = document.getElementById(id);
       if (element) element.scrollIntoView({ behavior: "smooth" });
-    }, 200);
+    }, 400);
   };
 
   const features = [
